@@ -2,11 +2,15 @@ import 'dart:io';
 void main()
 {
 
-stdout.write("Enter the string that you print:");
+// stdout.write("Enter the string that you print:");
+// String s=stdin.readLineSync()!;
+// stdout.write("welcome $s");
 
-String s=stdin.readLineSync()!;
-stdout.write("welcome $s");
+String? name ;
+name =stdin.readLineSync() ?? "Gueast";
+print("Hello, $name");
 
 
 
-}
+
+} 
